@@ -1,6 +1,6 @@
 
 .profile {
-    width: 280px;
+    width: 320px;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: auto;
@@ -27,7 +27,7 @@
   }
 .username {
   padding-top: 20px;
-  color:rgb(55, 55, 55);
+  color:rgb(75, 75, 75);
   font-size: 24px;
   font-weight: 700;
 }
@@ -57,7 +57,7 @@
   padding-bottom: 25px;
 }
 .quantity {
-  color:rgb(55, 55, 55);
+  color:rgb(75, 75, 75);
   font-size: 21px;
   font-weight: 700;
 }
