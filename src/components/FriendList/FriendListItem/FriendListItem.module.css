@@ -1,0 +1,30 @@
+
+.avatar {
+    width: 64px;
+    height: 64px;
+    border-radius: 5px;
+    margin-right: 20px;
+    padding: 5px;
+    background-color: rgb(230, 230, 230);
+  }
+  .name {
+    font-size: 28px;
+    font-weight: 400;
+  }
+  .isOnline {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-left: 10px;
+  }
+  .online {
+    composes: isOnline;
+    background-color: green;
+  }
+  
+  .offline {
+    composes: isOnline;
+    background-color: red;
+  }
+  
