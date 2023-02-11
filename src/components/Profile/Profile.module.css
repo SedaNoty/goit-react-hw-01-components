@@ -1,0 +1,66 @@
+
+.profile {
+    width: 280px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 60px 100px 40px 100px;
+    background-color: rgb(230, 230, 230);
+}
+.description {
+    box-shadow: rgb(0 0 0 / 20%) 0px 3px 3px -2px,
+    rgb(0 0 0 / 14%) 0px 3px 4px 0px, rgb(0 0 0 / 12%) 0px 1px 8px 0px;
+    border-radius: 5px 5px 0 0;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(250, 250, 250);
+  }
+.avatar {
+    padding-top: 13px;
+    background-color: rgb(230, 230, 230);
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+.username {
+  padding-top: 20px;
+  color:rgb(55, 55, 55);
+  font-size: 24px;
+  font-weight: 700;
+}
+.tag {
+  color: rgb(177, 177, 177);
+  margin: 10px 0;
+}
+
+.location {
+  color: rgb(177, 177, 177);
+}
+
+.stats {
+  box-shadow: rgb(0 0 0 / 20%) 0px 3px 3px -2px,
+    rgb(0 0 0 / 14%) 0px 3px 4px 0px, rgb(0 0 0 / 12%) 0px 1px 8px 0px;
+    border-radius: 0 0 5px 5px;
+  display: flex;
+  background-color: rgb(240, 240, 240);
+}
+.stats_data {
+  display: flex;
+  width: 125px;
+  border: 1px solid rgb(230, 230, 230);
+  flex-direction: column;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.quantity {
+  color:rgb(55, 55, 55);
+  font-size: 21px;
+  font-weight: 700;
+}
+.label {
+  color: rgb(177, 177, 177);
+}
